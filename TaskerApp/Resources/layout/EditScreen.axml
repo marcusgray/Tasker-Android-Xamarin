@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="@string/Title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TitleText" />
+    <TextView
+        android:text="@string/Description"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DescriptionText" />
+    <CheckBox
+        android:text="@string/Completed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CompletedCheckBox" />
+    <Button
+        android:text="@string/saveTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SaveButton" />
+    <Button
+        android:text="@string/deleteTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DeleteButton" />
+    <Button
+        android:text="@string/cancelTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CancelButton" />
+</LinearLayout>

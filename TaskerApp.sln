@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskerApp.Android", "TaskerApp\TaskerApp.Android.csproj", "{52FB86EF-3D01-4C5B-B49F-5BA607EFD387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskerApp.Core", "TaskerApp.Core\TaskerApp.Core.csproj", "{EBE62848-6915-4948-8BDA-A78CC4D26A6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52FB86EF-3D01-4C5B-B49F-5BA607EFD387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52FB86EF-3D01-4C5B-B49F-5BA607EFD387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52FB86EF-3D01-4C5B-B49F-5BA607EFD387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52FB86EF-3D01-4C5B-B49F-5BA607EFD387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBE62848-6915-4948-8BDA-A78CC4D26A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE62848-6915-4948-8BDA-A78CC4D26A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE62848-6915-4948-8BDA-A78CC4D26A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE62848-6915-4948-8BDA-A78CC4D26A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = TaskerApp\TaskerApp.Android.csproj
+	EndGlobalSection
+EndGlobal
